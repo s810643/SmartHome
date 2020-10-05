@@ -7,12 +7,7 @@ void setup() {
 }
 
 void loop() {
-  if(digitalRead(2)==HIGH) {
-    Serial.println("HIGH");
-  }
-  else {
-    Serial.println("LOW");
-  }
+
   if(digitalRead(2)==HIGH) {
     Serial.println("alert");
     digitalWrite(12, HIGH);
